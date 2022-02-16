@@ -2,7 +2,7 @@ package test.test04;
 
 import java.util.ArrayList;
 
-public class ArrayList_±íÀºº¹»ç_¾èÀºº¹»ç {
+public class ArrayList_ê¹Šì€ë³µì‚¬_ì–•ì€ë³µì‚¬ {
 	// https://library1008.tistory.com/47
 	
 	static ArrayList<String> source = new ArrayList<String>();

@@ -2,8 +2,8 @@ package algorithm2;
 
 import java.util.Arrays;
 
-public class ´Ü¼ø¼±ÅÃÁ¤·Ä {
-
+public class ë‹¨ìˆœì„ íƒì •ë ¬ {
+	
 	static int getMin(int[] a, int nx) {
 		int min = nx;
 		int temp = a[nx];
@@ -23,13 +23,13 @@ public class ´Ü¼ø¼±ÅÃÁ¤·Ä {
 		int nx = 0;
 		
 		for(int i=0; i < a.length-1; i++) {
-			System.out.println("ÆĞ½º =" + i);
+			System.out.println("ï¿½Ğ½ï¿½ =" + i);
 			nx = i;
-			// ¹è¿­¿¡¼­ °¡Àå ÀÛÀº°ª ±¸ÇÏ±â
-			// ¹è¿­½ÃÀÛ°ª
+			// ï¿½è¿­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï±ï¿½
+			// ï¿½è¿­ï¿½ï¿½ï¿½Û°ï¿½
 			int min = getMin(a, nx);
 
-			// Á¤·ÄµÇÁö ¾ÊÀº ¹è¿­ÀÇ Ã¹°ª°ú ºñ±³ ÈÄ ±³È¯
+			// ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ï¿½ï¿½ Ã¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½È¯
 			if(a[i] > a[min]) {
 				System.out.println("swap " + i + "<>" + min);
 				swap(a, i, min);

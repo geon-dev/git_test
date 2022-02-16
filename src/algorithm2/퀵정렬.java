@@ -1,8 +1,7 @@
 package algorithm2;
 
-public class ÄüÁ¤·Ä {
+public class í€µì •ë ¬ {
 
-	// ¹è¿­ ³ª´©±â
 	static void partition(int[] a) {
 		
 		// pl <  x  >  pr

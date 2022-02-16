@@ -2,7 +2,7 @@ package algorithm2;
 
 import java.util.Arrays;
 
-public class ¼ÐÁ¤·Ä {
+public class ì…¸ì •ë ¬ {
 	
 	static void swap(int[] a, int idx1, int idx2) {
 		int t = a[idx1];
